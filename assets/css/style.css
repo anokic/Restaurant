@@ -263,30 +263,27 @@ body .header .buttonsHeader {
 body .header .buttonsHeader button {
   width: 226px;
   height: 55px;
-  font-family: "Lato";
+  font-family: "Lato", sans-serif;
   font-size: 18px;
-  color: white;
+  color: rgb(255,255,255);
+  font-weight: 100;
 }
 body .header .buttonsHeader .book {
   border: 1px black solid;
-  opacity: 0.8;
-  background-color: rgba(0, 0, 0, 0.702);
+  background-color: rgba(0, 0, 0, 0.602);
   margin-right: 26px;
   transition: 0.3s ease-out;
 }
 body .header .buttonsHeader .book:hover {
-  opacity: 0.9;
-  background-color: rgba(0, 0, 0, 0.902);
+  background-color: rgba(0, 0, 0, 0.802);
 }
 body .header .buttonsHeader .see {
   border: 1px white solid;
-  opacity: 0.802;
-  background-color: rgba(255, 255, 255, 0.278);
+  background-color: rgba(255, 255, 255, 0.178);
   transition: 0.3s ease-out;
 }
 body .header .buttonsHeader .see:hover {
-  background-color: rgba(255, 255, 255, 0.478);
-  opacity: 1;
+  background-color: rgba(255, 255, 255, 0.418);
 }
 body .content .firstContentDiv {
   display: flex;
