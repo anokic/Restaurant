@@ -6,7 +6,7 @@ PSD to HTML
 **Description**
 
 Project that I made when I was in my first year of Front-End Developing. So it means it's an old project.
-A simple PSD to HTML convertation.
+A simple PSD to HTML conversion.
 Used **HTML/HTML5** with **CSS/CSS3** and **JavaScript/jQuery**.
 
 **Details**
@@ -16,7 +16,9 @@ Used **HTML/HTML5** with **CSS/CSS3** and **JavaScript/jQuery**.
 3. **JavaScript/jQuery**
 4. **Photoshop**
 
-Scroll in efects like move in, fade in etc. done with **JavaScipt/jQuery**. No plugins used.
+Scroll in effects like move in, fade in etc. done with **JavaScript/jQuery**.
+
+Added new features to this project. 
 
 PSD is from: https://www.oxygenna.com/freebies/free-one-page-psd-template
 
