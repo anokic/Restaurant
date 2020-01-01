@@ -7,6 +7,18 @@ h3 {
 }
 
 /* Wobble Horizontal */
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
 @-webkit-keyframes hvr-wobble-horizontal {
   16.65% {
     -webkit-transform: translateX(8px);
@@ -90,6 +102,26 @@ html, body {
 
 body {
   -webkit-text-stroke: 0.1px;
+}
+body .loading {
+  background-color: #fff;
+  background-image: url(img/patternBackground.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  pointer-events: none;
+}
+body .loading img {
+  animation: blink 1.5s infinite;
 }
 body .header {
   min-height: 750px;

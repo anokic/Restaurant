@@ -1,8 +1,12 @@
 window.onload = function() {
 
+  $('.loading').animate({
+    'opacity': '0'
+  }, 200);
+
   $('.heading').animate({
     'opacity': '1'
-  }, 700);
+  }, 900);
 
   document.querySelector('.hamburgerContainer').addEventListener('click', function() {
 
