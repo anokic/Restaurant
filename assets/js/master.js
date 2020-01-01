@@ -1,5 +1,9 @@
 window.onload = function() {
 
+  $('.heading').animate({
+    'opacity': '1'
+  }, 700);
+
   document.querySelector('.hamburgerContainer').addEventListener('click', function() {
 
     document.querySelector('.hamburgerContainer').classList.toggle('active');
@@ -16,7 +20,7 @@ window.onload = function() {
   });
 
   document.querySelector('.book').addEventListener('click', function() {
-    document.querySelector('.rightReserve').scrollIntoView({
+    document.querySelector('.reserve').scrollIntoView({
       behavior: "smooth",
       inline: "nearest"
     });

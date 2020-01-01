@@ -237,6 +237,7 @@ body .header .downHeader .heading {
   width: 70%;
   margin-top: 120px;
   position: relative;
+  opacity: 0;
 }
 body .header .downHeader .heading::before {
   content: "";
