@@ -23,3 +23,7 @@ PSD is from: https://www.oxygenna.com/freebies/free-one-page-psd-template
 Website demo: http://brankoanokic.com/projects/Restaurant/index.html
 
 ![Website image](https://i.ibb.co/Ss2PcPR/screencapture-brankoanokic-projects-Restaurant-index-html-2019-12-29-13-12-48.png)
+
+Speed test:
+
+![Speed test](https://i.ibb.co/YXmDD0M/screencapture-gtmetrix-reports-brankoanokic-com-ji-Rdih-Eh-2020-01-01-18-35-18.png)
